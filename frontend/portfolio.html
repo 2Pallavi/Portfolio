@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PALLAVI CHAUDHARI</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="profile.jpeg"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+
+    <nav id="desktop-nav">
+      
+      <div class="logo">PALLAVI CHAUDHARI</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Page -->
+
+    <nav id="hamburger-nav">
+      
+      <div class="logo">PALLAVI CHAUDHARI</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li>
+            <a href="#achievements" onclick="toggleMenu()">Achievements</a>
+          </li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="profile.jpeg"
+          alt="Pallavi profile picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">PALLAVI CHAUDHARI</h1>
+        <p class="section__text__p2">Aspiring Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('Pallavi_Chaudhari_Resume (2).pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/pallavi-chaudhari'"/>
+          <img
+            src="logo.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/2Pallavi'"/>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Page -->
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="profile_photo.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            
+            <div class="details-container">
+              <img
+                src="education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech. Computer Science and Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Welcome to my portfolio!
+              <br /> I’m Pallavi Chaudhari a 3rd-year Computer Science Engineering student with a keen interest in software development.
+               I am learning Java, DSA, and web technologies, and actively working on projects to strengthen my practical skills. I enjoy problem-solving, continuous learning, and aspire to grow as a professional software developer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+
+    <!-- Experience Page  -->
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Frontend Development -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML & CSS</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                  <h3>Angular</h3> 
+                 
+                </div>
+              </article>
+              
+                
+            </div>
+          </div>
+
+          <!-- Backend Development -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              
+              
+             
+              <article>
+                <img
+                  src="checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3> Java</h3>
+                
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Databases</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  
+                </div>
+              </article>
+
+              
+            </div>
+          </div>
+
+          <!-- Cloud & Tools -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Eclipse</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VS code</code></h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="checkmark.webp"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git / GitHub</h3>
+                  
+                </div>
+              </article>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#codingprofiles'"
+      />
+    </section>
+
+    <!-- Coding profiles -->
+    <section id="codingprofiles">
+      <p class="section__text__p1">Check up on My</p>
+      <h1 class="title">Coding Profiles</h1>
+      
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="leetcode-logo.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://leetcode.com/u/pallavi_chau25/">pallavi_chau25</a></p>
+        </div>
+        <div class="contact-info-container">
+         
+          <img
+            src="green-arrow.jpg"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+        </div>
+      </div>
+      <div class="contact-info-upper-container">
+        
+        <div class="contact-info-container">
+          <img
+            src="hackerrank-logo.jpg"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="https://www.hackerrank.com/profile/pallavichau25">pallavichau25</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+         
+          <img
+            src="green-arrow.jpg"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+
+    <!-- Projects Page -->
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+
+      <!-- project-1 -->
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="yatramarg.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Yatra Marg Portal</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/RahulDasari1/Loan-Genius-AI'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://loangeniusai.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <!-- project-5 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="photographyweb.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+             Photography web
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/2Pallavi/Photographyweb'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://designscorechecker.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+      
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Employee Management
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/RahulDasari1/Vide'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://vide-omega.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+          <!-- project-2 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Movie Atlas Telugu
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/RahulDasari1/Movie-Atlas-Telugu'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://movie-atlas-telugu.vercel.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+             
+
+          
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#achievement'"
+      />
+    </section>
+    <br />
+    <br />
+    <!-- Achievements Page -->
+
+    <section id="achievements">
+      <p class="section__text__p1">Have a look of My</p> 
+      <h1 class="title">Achievements</h1>
+          
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- Achievement-4 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="misstechuddan.jpeg"
+                alt="Achievement-1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Miss TechUdaan 
+            </h2>
+            
+          </div>
+
+          <!-- Achievement-5 -->
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="sunhackscertificate.jpeg"
+                alt="Achievement-2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Selected as Top 20teams Finalist out of 800 teams
+            </h2>
+            
+           
+          </div>
+
+       
+
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <br />
+    <br />
+
+    <!-- Contact Page -->
+  
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:pallavichau25@gmail.com"
+              >pallavichau25@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/pallavi-chaudhari">LinkedIn</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#codingprofiles">Coding Profiles</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>
+        Copyright &#169; 2026
+        <a href="#">Pallavi Chaudhari</a>. All
+        Rights Reserved.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
